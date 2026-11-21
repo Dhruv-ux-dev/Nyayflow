@@ -1,0 +1,1 @@
+import{g as e,p as t}from"./hooks-CyDVgbBq.js";function n(n,r){if(n instanceof t&&r)for(let e of n.fieldErrors)r(e.field.replace(/\[(\d+)\]/g,`.$1`),{type:`server`,message:e.message.charAt(0).toUpperCase()+e.message.slice(1)});return e(n)}var r=e=>({validate:t=>typeof t==`string`&&t.trim().length>0||e});export{r as n,n as t};
